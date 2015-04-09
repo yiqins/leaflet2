@@ -7,10 +7,10 @@
 
 //marker 1,2
 // You don't want to declare a variable of the same name twice
-	var marker = L.marker([40.80859, -73.964803]).addTo(map);
+	var marker1 = L.marker([40.80859, -73.964803]).addTo(map);
 	marker.bindPopup("<b>This is Columbia University</b><br>Welcome to my school!").openPopup();
 
-	var marker = L.marker([31.2989, 121.4992]).addTo(map);
+	var marker2 = L.marker([31.2989, 121.4992]).addTo(map);
 	marker.bindPopup("<b>This is Fudan University</b><br>Welcome to my hometown!");
 
 //circle 1,2

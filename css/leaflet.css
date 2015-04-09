@@ -9,7 +9,12 @@
 	height: 800px;
 }
 
-#marker{
+#marker1{
+	height:100px;
+	width:100px;
+}
+
+#marker2{
 	height:100px;
 	width:100px;
 }
