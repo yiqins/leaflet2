@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>	
+		<link rel="stylesheet" href="css/leaflet.css"/>	
+
+	</head>
+
+	<body>
+		
+		<!-- In html, you generally don't put spaces on either side of the equal sign. In javascript, you do, go figure. -->
+		<div id="map"></div>	
+		<div id="marker"></div>
+		<div id="marker"></div>
+		
+
+		<div id = "menu">
+		<h2>Options</h2>
+		<!-- You don't have a button with an id of `#current` -->
+		<!-- Please make sure you complete the assignment -->
+		<div class="button" data-which="columbia">Journalism School</div>
+		<div class="button" data-which="fudan">Fudan University</div>
+		</div>
+		
+
+		<!-- I tend to load jquery first since many other libraries depend on it. leaflet doesn't so in this case you're fine but it can be a good habit -->
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
+

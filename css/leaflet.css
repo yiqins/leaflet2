@@ -1,0 +1,30 @@
+*{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		   -box-sizing: border-box;
+}
+
+
+#map {
+	height: 800px;
+}
+
+#marker{
+	height:100px;
+	width:100px;
+}
+
+
+.button{
+	font-size: 20px;
+	padding-top: 1px;
+	width: 100px;
+	height: 50px;
+	border-top: 10px;
+	border-color: blue;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/* You're missing styles for this element. Having a selector without {} will generally break the stylesheet */
